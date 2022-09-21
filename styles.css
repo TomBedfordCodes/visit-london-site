@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(233, 233, 233);
+    /* background: linear-gradient(rgba(180, 198, 255, 0.733), rgb(248, 158, 248)); */
+}
+
+#hero {
+    background-image: url("https://images.unsplash.com/photo-1520967824495-b529aeba26df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    /* background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgetonbloc.com%2Fwp-content%2Fuploads%2F2015%2F03%2Fskyline-07-london.jpg&f=1&nofb=1"); */
+    /* background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fconnections.rdm.com%2Fwp-content%2Fuploads%2F2017%2F03%2FSkyline_London_Web.jpg&f=1&nofb=1"); */
+    /* filter: brightness(50%); */
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero h1 {
+    /* filter: brightness(100%); */
+    color: rgb(233, 233, 233);
+    font-size: 60px;
+    text-shadow: 0 0 5px black;
+}
+
+#activity-section {
+    height: 60%;
+    text-align: center;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    width: 150px;
+
+}
+
+.activity img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+#guide {
+    height: 210px;
+    width: 600px;
+    margin: 50px auto;
+    background-color: rgba(186, 198, 231, 0.733);
+    border-bottom: 7px solid rgba(115, 129, 169, 0.733);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#guide img {
+    width: 200px;
+    margin: 10px;
+}
+
+#guide-text {
+    text-align: center;
+    margin: 30px;
+    color: rgb(63, 71, 93);
+}
+
+#guide-text p {
+    font-style: italic;
+}
+
